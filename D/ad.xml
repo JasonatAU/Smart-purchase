@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Advertisements>
+
+<Ad>
+	<ImageUrl>~/Images/1.jpg</ImageUrl>
+  <NavigateUrl>content_homepage.aspx</NavigateUrl>
+  <AlternateText>Home Page</AlternateText>
+  <Impressions>40</Impressions>
+</Ad>
+<Ad>
+	<ImageUrl>~/Images/2.jpg</ImageUrl>
+  <NavigateUrl>content_homepage.aspx</NavigateUrl>
+  <AlternateText>Home Page</AlternateText>
+  <Impressions>30</Impressions>
+	</Ad>
+<Ad>
+	<ImageUrl>~/Images/3.jpg</ImageUrl>
+  <NavigateUrl>content_homepage.aspx</NavigateUrl>
+  <AlternateText>Home Page</AlternateText>
+  <Impressions>30</Impressions>
+</Ad>
+
+
+
+</Advertisements>

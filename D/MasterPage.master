@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+
+<script runat="server">
+
+    void Page_Load(object sender, EventArgs e)
+    {
+        String dateAndTime = DateTime.Now.ToString();
+        labelDateAndTime.Text = dateAndTime;
+    }
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Smart Purchase</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="MasterPage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" method="post" runat="server">
+        
+
+        <div class="div100">
+            <div class="div110">
+                <div class="div111">
+                    <img src="~/Images/logo.png" runat="server" />
+                </div>
+                <div class="div112">
+                    <asp:label ID="toplabel1" runat="server" CssClass="toplabel" Text="SMART PURCHASE" />
+                </div>
+                
+            </div>
+                
+            <div class="div120">
+                <asp:sitemappath ID="sitemappath1" runat="server">
+                    <pathseparatortemplate>--></pathseparatortemplate>
+                </asp:sitemappath>
+            </div>
+        </div>
+        <div class="div200">    
+            <div class="div210">
+                <div class="div211">
+                    <asp:sitemapdatasource ID="sitemapdatasource1" runat="server" />
+                    <asp:menu StaticDisplayLevels="2" ID="menu1" runat="server" DataSourceID="sitemapdatasource1" StaticSubMenuIndent="25" ForeColor="Black">
+
+                        </asp:menu>
+                    
+                </div>
+                <div>
+                    <img src="~/Images/left.png" runat="server" />
+                </div>
+                <div class="div213">
+                    <asp:contentplaceholder ID="content213" runat="server">
+                    </asp:contentplaceholder>
+                    
+                </div>
+            </div>
+            
+            <div class="div220">
+                <div class="div221">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder01" runat="server">
+                       <asp:AdRotator ID="adrotator1" runat="server" AdvertisementFile="~/ad.xml" />
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="div222">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder02" runat="server">
+                       
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+
+        <div class="div300">
+            <asp:label ID="labelDateAndTime" runat="server" Text="" />
+            <asp:label ID="label30001" runat="server" Text="Copyright2016 Smart Purchase Pty.Ltd." />
+        </div>
+    </form>
+</body>
+</html>

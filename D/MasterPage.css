@@ -1,0 +1,90 @@
+﻿body {
+}
+
+.div100{
+    height:100px;width:900px;border:dotted;border-color:red;border-width:1px;margin-left:auto;margin-right:auto;
+}
+
+.div110{
+    height:70px;width:900px;
+}
+
+.div111{
+    height:70px;float:left;
+}
+
+.div112{
+    height:70px;float:right;
+}
+
+.toplabel{
+    font-size:x-large;font-weight:700;font-family:Arial;
+}
+
+.div120{
+    height:30px;width:900px;background-color:#f2f2f2;
+}
+
+.div200{
+    height:800px;width:900px;border:dotted;border-color:red;border-width:0px;margin-left:auto;margin-right:auto;
+}
+
+.div210{
+    width:300px;border:dotted;border-color:red;border-width:0px;
+    float:left;
+}
+
+.div211{
+    height:200px;width:300px;border:dotted;border-color:red;border-width:0px;background-color:yellow;
+    
+}
+
+.div212{
+    height:400px;width:300px;
+}
+
+.div213{
+    height:200px;width:300px;border:dotted;border-color:red;border-width:0px;
+    
+}
+
+.div220{
+    width:600px;border:dotted;border-color:red;border-width:0px;
+    float:left;
+}
+
+.div221{
+    height:200px;width:600px;border:dotted;border-color:red;border-width:0px;background-color:lightblue;
+}
+
+.div222{
+    width:600px;border:dotted;border-color:red;border-width:0px;background-color:white;
+}
+
+.div300{
+    height:50px;width:900px;border:dotted;border-color:red;border-width:0px;margin-left:auto;margin-right:auto;text-align:center;
+}
+
+.calendar{
+    height:200px;width:300px;
+}
+
+.p{
+    font-family:Arial;font-size:medium;line-height:1;
+}
+
+.table{
+    align-content:center;border-bottom-style:ridge;border-width:2px;border-color:blue;font-family:Arial;background-color:lightgrey;
+}
+
+.talbeSelect{
+    align-content:center;border-style:ridge;border-width:1px;border-color:lightgrey;font-family:Arial;
+}
+
+.tbMailSubject{
+    width:150px;columns:20;
+}
+
+.tbMailBody{
+
+}
